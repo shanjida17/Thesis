@@ -1,0 +1,94 @@
+{
+  "intents": [
+  {
+  "tag": "greeting",
+  "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+  "responses": ["Hello", "Hi", "Hi there"],
+  "context": [""]
+  },
+  {
+  "tag": "goodbye",
+  "patterns": ["Bye", "See you later", "Goodbye"],
+  "responses": ["See you later", "Have a nice day", "Bye! Come back again"],
+  "context": [""]
+  },
+  {
+  "tag": "thanks",
+  "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+  "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"],
+  "context": [""]
+  },
+  {
+  "tag": "about",
+  "patterns": ["Who are you?", "What are you?", "Who you are?"],
+  "responses": ["I'm a bot assistant", "I'm Joana, a master's university recommendation bot"],
+  "context": [""]
+  },
+  {
+    "tag": "help",
+    "patterns": ["I need some help?", "Can youn find me some masters university?"],
+    "responses": ["How can i assist you?", "Sure.Please provide your academic scores.What is your tofel score?"],
+    "context": [""]
+    },
+  {
+  "tag": "recommendation",
+  "patterns": ["Recommend me a master's university", "I want to do master's abroad", "Recommend me some master's universities"],
+  "responses": ["Please provide us your details in order to assist you", "Please mention your field of study, and we will help you find a master's university"],
+  "context": [""]
+  },
+  {
+  "tag": "field",
+  "patterns": ["My field of study is computer science", "My field of study is EEE", "My field of study is CSE", "My major is economics", "Master's field is business administration"],
+  "responses": ["Tell me, please, your academic results", "Tell me your CGPA, IELTS, TOEFL scores to assist you", "First, tell me about your results"],
+  "context": [""]
+  },
+  {
+  "tag": "ielts_score",
+  "patterns": [ "IELTS score is 8", "My IELTS band is 6.5", "My IELTS result is 7.0", "IELTS score is 7.5"],
+  "responses": ["Great! Now, please provide your TOEFL and GRE scores as well"],
+  "context": [""]
+  },
+  {
+  "tag": "toefl_score",
+  "patterns": ["My TOEFL score is 100", "TOEFL score is 110", "My TOEFL result is 95", "TOEFL score is 105", "My TOEFL iBT is 90"],
+  "responses": ["Perfect! Now, please provide your GRE score"],
+  "context": [""]
+  },
+  {
+  "tag": "gre_score",
+  "patterns": ["My GRE score is 320", "GRE score is 330", "My GRE result is 310", "GRE score is 325", "My GRE percentile is 90"],
+  "responses": ["Excellent! Now, please provide your CGPA"],
+  "context": [""]
+  },
+  {
+    "tag": "no_gre",
+    "patterns": ["I haven't taken the GRE", "No GRE score", "Didn't take the GRE"],
+    "responses": ["That's alright! Please provide your CGPA"],
+    "context": [""]
+    },
+    {
+    "tag": "no_toefl",
+    "patterns": ["I haven't taken the TOEFL", "No TOEFL score", "Didn't take the TOEFL"],
+    "responses": ["That's alright! Please provide your GRE score"],
+    "context": [""]
+    },
+    {
+    "tag": "no_gre_toefl",
+    "patterns": ["I haven't taken the GRE or TOEFL", "No GRE or TOEFL score", "Didn't take the GRE or TOEFL"],
+    "responses": ["That's alright! Please provide your CGPA score"],
+    "context": [""]
+    },
+  {
+  "tag": "cgpa",
+  "patterns": ["My CGPA is 3.5", "CGPA is 3", "My CGPA is 3.8", "My CGPA is 3.75", "CGPA is 3.14", "My result is 3.40", "CGPA is 2.7", "CGPA is 3.9", "CGPA 3.30", "CGPA is 3.10", "CGPA is 3.28"],
+  "responses": ["Tell me, please, your preferred location for pursuing the degree", "Fine! Tell me your preferred location to assist you"],
+  "context": [""]
+  },
+  {
+  "tag": "recommendation_flow",
+  "patterns": ["My preferred location is USA and my field of study is computer science", "I want to study in united states in cse", "I am interested in cse and prefer to study in usa"],
+  "responses": ["Based on your preferences of usa and academic scores, here are some recommended universities:University of California, Berkeley,Stanford University,Massachusetts Institute of Technology (MIT),Harvard University,University of California, Los Angeles (UCLA),California Institute of Technology (Caltech)"],
+  "context": [""]
+  }
+  ]
+  }
